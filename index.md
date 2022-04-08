@@ -4,7 +4,20 @@ Hi, it's 8:08 am.
 **bold**
 # heading 1
 ## heading 2
-[link](www.google.com)
+[Link1](http://www.duckduckgo.com)
+
+[Link2a][1]
+
+random words
+
+[Link2b][2]
+
+garble grable
+
+[1]: http://www.google.com
+[2]: http://www.bing.com
+
+
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png)
 > Blockquote the end
