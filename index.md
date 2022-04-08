@@ -19,7 +19,7 @@ Hi, it's 8:08 am.
 3. three
 
 Horizontal rule: 
-___
+***
 
 `Inline code` with backticks
 # code block
