@@ -45,4 +45,7 @@ print `indent 4 spaces`
 
 ![image](cse15lss.png)
 
+Here is the image from the (blank) file.
+
+[Lab Report 1](lab-report-1-week-2.html)
 
