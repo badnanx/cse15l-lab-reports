@@ -50,3 +50,7 @@ Here is the image from the (blank) file.
 [Lab Report 1a](lab-report-1-week-2.md)
 
 [Lab Report 1b](https://github.com/badnanx/cse15l-lab-reports/blob/main/lab-report-1-week-2.md)
+
+[Lab Report 1c](https://badnanx.github.io/cse15l-lab-reports/lab-report-1-week-2.md)
+
+
