@@ -6,7 +6,7 @@ Hi, it's 8:08 am.
 ## heading 2
 [link] www.google.com
 
-![image](https://images.app.goo.gl/D3N7HrAuZsKygP5g8)
+![image] (https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png)
 > Blockquote the end
 
 
@@ -18,7 +18,8 @@ Hi, it's 8:08 am.
 2. two
 3. three
 
-Horizontal rule: ???
+Horizontal rule: 
+---
 
 Inline code with backticks
 # code block
