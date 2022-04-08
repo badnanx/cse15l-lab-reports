@@ -4,7 +4,7 @@ Hi, it's 8:08 am.
 **bold**
 # heading 1
 ## heading 2
-[link] www.google.com
+[link](www.google.com)
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png)
 > Blockquote the end
