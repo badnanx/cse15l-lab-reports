@@ -1,9 +1,14 @@
 My first .md file.
 Hi, it's 8:08 am.
+
 *italic*
+
 **bold**
+
 # heading 1
 ## heading 2
+### heading 3
+
 [Link1](http://www.duckduckgo.com)
 
 [Link2a][1]
@@ -22,7 +27,7 @@ garble grable
 ![image](https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png)
 
 
-> Blockquote the end
+> Blockquote
 
 
 * list item 1
@@ -33,14 +38,23 @@ garble grable
 2. two
 3. three
 
+- one
+- two
+- three
+
+
+
 Horizontal rule: 
 
 ***
 
 `Inline code` with backticks
+
+```
 # code block
 print `3 backticks or`
 print `indent 4 spaces`
+```
 
 
 ![image](cse15lss.png)
