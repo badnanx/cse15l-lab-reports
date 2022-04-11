@@ -1,5 +1,3 @@
-![image](cse15lss.png)
-
 # lab report 1
 
 ## Installing VS code
@@ -43,3 +41,9 @@
 ![image](p4scp.png)
 
 ## Setting an SSH key
+
+* typing our password all the time is annoying
+* we can fix this with an SSH key, so we can login securely without needing to retype our password all the time
+* login to the server and do `ssh-keygen`
+* save the key to the file `/Users/<user-name>/.ssh/id_rsa: /Users/<user-name>/.ssh/id_rsa`
+* click enter on everything, don't type anything
