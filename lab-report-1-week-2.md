@@ -19,7 +19,7 @@
 * type in `ssh cs15lsp22zz@ieng6.ucsd.edu` 
 * replace zz with your assigned user name (ie awo)
 * say yes to all the prompts, enter password
-* you're now connecte!
+* you're now connected!
 
 ## Run some commands
 * here are some useful ones:
