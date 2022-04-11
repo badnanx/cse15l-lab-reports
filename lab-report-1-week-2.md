@@ -34,7 +34,7 @@
 ## Moving files with scp
 
 * we can securely copy files from the client (local machine) to the server
-* do the `exit` command to logout of the sever
+* do the `exit` command to logout of the server
 * now do `scp <fileName.extension> cs15lsp22zz@ieng6.ucsd.edu:~/`
 * this securely copies the file to the server
 
