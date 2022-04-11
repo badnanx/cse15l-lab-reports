@@ -1,4 +1,4 @@
-# lab report 1
+# Lab Report 1
 
 ## Installing VS code
 
@@ -44,6 +44,24 @@
 
 * typing our password all the time is annoying
 * we can fix this with an SSH key, so we can login securely without needing to retype our password all the time
-* login to the server and do `ssh-keygen`
+* on the client (local machine) do `ssh-keygen`
 * save the key to the file `/Users/<user-name>/.ssh/id_rsa: /Users/<user-name>/.ssh/id_rsa`
-* click enter on everything, don't type anything
+* click enter on everything, don't type anything, being sure not to enter a passphrase
+* now do `ssh-keygen -t ed25519`
+* you'll get a puzzle picture on the terminal
+* two files, the public and private keys are stored on our local machine
+* we need to copy the public key to the .ssh directory on our server account, here's how:
+* login to the server and do `mkdir .ssh`, then `exit` to logout
+* on the client, do `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+* we can now ssh login to the server and do scp all without a password!
+* it will look like this:
+![image](p5-SSH-key.png)
+
+## Optimizing Remote Running
+* let's get efficient! Here are some pro tips:
+* you can use the up arrow to quickly access previous commands
+* you can have more than one terminal open at a time!
+* You can combine login and commands in one line, like so:
+![image](p6ProTips.png)
+* this allows us to login to the server, execute some operation, and logout all at once!
+
