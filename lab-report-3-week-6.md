@@ -40,13 +40,14 @@
 * We can copy entire directories with `scp -r` as shown:
 ![image](lab3-p3-scp-r.png)
 
-* this is most faster than copying files one at a time!
+* this is much faster than copying files one at a time!
 
 * logging in to ieng and running tests:
-![image](lab3-p3-tests.png)
+![image](lab3-ieng6-tests.png)
 
-* combining actions into one line:
-![image](lab3-p3-one-liner.png)
+* combining multiple commands:
+![image](lab3-scp-login.png)
+![image](lab3-cd-javac-java.png)
 
 
 
