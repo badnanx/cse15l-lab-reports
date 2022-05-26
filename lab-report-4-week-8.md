@@ -11,3 +11,7 @@
 
 * Test code:
 ![image](snippetTests.png)
+
+My output:
+![image](mySnippetOutput.png)
+
