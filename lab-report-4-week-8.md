@@ -1,4 +1,9 @@
 # Lab Report 4
+
+[My Markdown Parser](https://github.com/badnanx/markdown-parser-reborn.git)
+
+[Other student's markdown parser](https://github.com/ddn005UCSD/markdown-parser.git)
+
 * Snippet 1 expected output:
 
     `[url.com, `\``google.com, google.com, ucsd.edu]`
@@ -12,6 +17,17 @@
 * Test code:
 ![image](snippetTests.png)
 
-My output:
-![image](mySnippetOutput.png)
+- My output:
+    
+    * `testSnippet1()` and `testSnippet2()` passed but `testSnippet3()` failed
+
+![image](myOutput.png)
+
+
+
+- Other student's output:
+
+    * `testSnippet1()` passed but `testSnippet2()` and `testSnippet3()` failed
+
+![image](otherOutput.png)
 
