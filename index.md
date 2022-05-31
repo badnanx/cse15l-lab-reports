@@ -5,7 +5,8 @@
 )
 * [lab-report-3](https://badnanx.github.io/cse15l-lab-reports/lab-report-3-week-6.html
 )
-
+* [lab-report-4](https://badnanx.github.io/cse15l-lab-reports/lab-report-4-week-8.html
+)
 
 My first .md file.
 Hi, it's 8:08 am.
