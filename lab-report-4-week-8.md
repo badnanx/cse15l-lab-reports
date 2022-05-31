@@ -42,12 +42,14 @@
 
 * Question 1: 
 
-     My first test passed because I knew that my code does not give any special treatment to backticks, so I knew what the expected output would be. It just treats the backticks like any other character. I think it is possible to make a small change that ignore backticks, like designing an "if statement" that tells the program to ignore backticks.
+     My first test passed because I knew that my code does not give any special treatment to backticks, so I knew what the resultant output would be. It just treats the backticks like any other character. I think it is possible to make a small change that ignores/skips backticks, like designing an "if statement" that tells the program to ignore backticks.
 
 * Questions 2: 
 
-    My second test passed because I knew that my code did not give special treatment to nested parentheses, brackets, and escaped brackets. If we were trying to get the link without those pollutants, it doesn't seem possible with a small code change. Since the program figures out where the links are based on brackets and parentheses, it would be really hard to code in all the possible combinations of misleading parentheses and brackets that need to be ignored in just ten lines or less.
+    My second test passed because I knew that my code did not give special treatment to nested parentheses, brackets, and escaped brackets so I knew the resultant output. If we were trying to get the links without those pollutants, it doesn't seem possible with a small code change. Since the program figures out where the links are based on brackets and parentheses, it would be really hard to code in all the possible combinations of misleading parentheses and brackets that need to be ignored in just ten lines or less.
 
 * Question 3:
 
-    The third test failed! The third snippet was really complicated. 
+    The third test failed! The third snippet was really complicated. With all the random line breaks and words between everything there are simply too many cases to try and protect against and it is difficult to code a way for the program to know what is a link and what isn't in just ten lines of code.
+   
+    --- 
