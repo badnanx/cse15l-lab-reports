@@ -14,20 +14,40 @@
 
     `[https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, github.com And there's still some more text after that. [this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/]`
 
-* Test code:
+    ---
+
+## Test code:
 ![image](snippetTests.png)
 
-- My output:
+---
+
+
+## My output:
     
-    * `testSnippet1()` and `testSnippet2()` passed but `testSnippet3()` failed
+* `testSnippet1()` and `testSnippet2()` passed but `testSnippet3()` failed
 
 ![image](myOutput.png)
 
+---
 
 
-- Other student's output:
+## Other student's output:
 
-    * `testSnippet1()` passed but `testSnippet2()` and `testSnippet3()` failed
+* `testSnippet1()` passed but `testSnippet2()` and `testSnippet3()` failed
 
 ![image](otherOutput.png)
 
+---
+
+
+* Question 1: 
+
+     My first test passed because I knew that my code does not give any special treatment to backticks, so I knew what the expected output would be. It just treats the backticks like any other character. I think it is possible to make a small change that ignore backticks, like designing an "if statement" that tells the program to ignore backticks.
+
+* Questions 2: 
+
+    My second test passed because I knew that my code did not give special treatment to nested parentheses, brackets, and escaped brackets. If we were trying to get the link without those pollutants, it doesn't seem possible with a small code change. Since the program figures out where the links are based on brackets and parentheses, it would be really hard to code in all the possible combinations of misleading parentheses and brackets that need to be ignored in just ten lines or less.
+
+* Question 3:
+
+    The third test failed! The third snippet was really complicated. 
