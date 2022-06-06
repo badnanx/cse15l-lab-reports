@@ -2,7 +2,21 @@
 
 I compared the results of two different implementations of markdown parser by first exporting their results to their own .txt files and then using vimdiff to compare the files.
 
-The command I used was `vimdiff <filepath1> <filepath2>` from the home directory of the remote host which compares the files as shown:
+I had a file named `script.sh` that printed the results for each. My `script.sh` file contained the following code:
+
+```
+for file in test-files/*.md;
+do
+  echo $file
+  java MarkdownParse $file
+done
+```
+
+
+I exported each of the results to their own `.txt` files by doing `bash script.sh > <filename>.txt` for each implementation from their respective directories.
+
+
+The command I used to compare them was `vimdiff <filepath1> <filepath2>` from the home directory which compares the files as shown:
 ![image](vimdiff.png)
 
 MarkdownParse is meant to extract the URLs of properly formatted links ONLY. Improperly formatted links are to be ignored.
