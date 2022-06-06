@@ -19,7 +19,7 @@ I exported each of the results to their own `.txt` files by doing `bash script.s
 The command I used to compare them was `vimdiff <filepath1> <filepath2>` from the home directory which compares the files as shown:
 ![image](vimdiff.png)
 
-MarkdownParse is meant to extract the URLs of properly formatted links ONLY. Improperly formatted links are to be ignored.
+**<u>IMPORTANT NOTE:</u> MarkdownParse is meant to extract the URLs of properly formatted links ONLY. Improperly formatted links are to be ignored.**
 
 The results of my implementation are on the left and the TAs implementation on the right. For both test files (22.md and 41.md) my output was incorrect and the TAs output was correct.  <br><br>
 
