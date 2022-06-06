@@ -71,7 +71,7 @@ From the code preview image of 41.md, we can see that we once again don't have a
 
 Instead, we can try comparing the characters inside the parentheses with a `' '` , a space. If anything inside the parentheses contains a space we know it is not a valid link.  <br><br>
 
-### **Code Screenshot**
+### **Code Screenshot for 22.md and 41.md**
 
 ---
 ![image](change.png)
